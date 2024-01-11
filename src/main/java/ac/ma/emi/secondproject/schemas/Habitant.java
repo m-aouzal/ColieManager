@@ -20,8 +20,7 @@ public class Habitant extends Personne {
 
     @ManyToOne
     @JoinColumn(
-            name = "centre_postal",
-            nullable = false
+            name = "centre_postal"
     )
     private CentrePostal centrePostal;
 

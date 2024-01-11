@@ -1,4 +1,6 @@
 #FileLock
-#Thu Jan 11 00:12:01 UTC 2024
-id=18cf5dc8d1bbb6b2b4d0d10568d048e823181566b77
+#Thu Jan 11 03:00:49 WEST 2024
+hostName=192.168.79.1
+id=18cf6402a14274454cc70387b61aebc938a9df61870
 method=file
+server=192.168.79.1\:50204

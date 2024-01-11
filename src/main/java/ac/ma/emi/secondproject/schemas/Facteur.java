@@ -10,16 +10,15 @@ public class Facteur extends Personne{
 
     @ManyToOne
     @JoinColumn(
-            name = "centre_postal",
-            nullable = false
+            name = "centre_postal"
+
     )
     private CentrePostal centrePostal;
 
 
     @ManyToOne
     @JoinColumn(
-            name = "colie",
-            nullable = false
+            name = "colie"
     )
     private Colie colie;
     public Facteur(String nom, String prenom, String rue, String quartier, String ville) {

@@ -20,22 +20,19 @@ public class Colie {
 
     @ManyToOne
     @JoinColumn(
-            name = "habitant_emetteur",
-            nullable = false
+            name = "habitant_emetteur"
     )
     private Habitant habitantEmetteur;
 
     @ManyToOne
     @JoinColumn(
-            name = "habitant_destinataire",
-            nullable = false
+            name = "habitant_destinataire"
     )
     private Habitant habitantDestinataire;
 
     @ManyToOne
     @JoinColumn(
-            name = "facteur",
-            nullable = false
+            name = "facteur"
     )
     private Facteur facteur;
 
@@ -165,5 +162,6 @@ public class Colie {
         this.facteur = facteur;
         this.centrePostals = centrePostals;
     }
+
 }
 

@@ -28,7 +28,7 @@ public class CentrePostal {
     @ManyToOne
     @JoinColumn(
             name = "centre_regional",
-            nullable = false
+            nullable = true
     )
     private CentreRegional centreRegional;
 
